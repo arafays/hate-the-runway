@@ -1,8 +1,0 @@
-{
-    "watchFolder": "src/styles",
-    "outputFolder": "public",
-    "mainFile": "index.less",
-    "sourceMap": true,
-    "runOnce": false,
-    "allowedExtensions": [".less", ".css"]
-}

@@ -1,10 +1,11 @@
+const path = require('path')
+
 module.exports = {
   entry: {
-    index: "./src/index.js",
-    background: "./src/background.js",
+    content: './src/content.js'
   },
   output: {
-    path: __dirname + "/public/",
-    filename: "[name].js"
-  },
+    path: path.resolve('./public'),
+    filename: '[name].js'
+  }
 }

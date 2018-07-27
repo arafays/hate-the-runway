@@ -1,0 +1,25 @@
+<html>
+  <head>
+
+  </head>
+
+  <body>
+    <style>
+      body {
+        width: 120px;
+        padding: 5px;
+      }
+    </style>
+
+    <h3>Hate the Runway</h3>
+    <button onclick="onClick()">Show All Hidden</button>
+
+    <script>
+      function onClick() {
+        chrome.runtime.sendMessage('show-all-hidden', {
+          msg: 'hello'
+        })
+      }
+    </script>
+  </body>
+</html>
